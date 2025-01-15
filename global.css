@@ -2,4 +2,7 @@
 
 body{
     background: #FAFAFA;
-}
+    font-family: Lato;
+    display: flex;
+    justify-content: center;
+    }
