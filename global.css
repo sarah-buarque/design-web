@@ -14,10 +14,11 @@ body{
 
 .card{
     display: flex;
-    width: 257px;
+    width: 270px;
+    height: 165px;
     margin-top: 34px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 p{
