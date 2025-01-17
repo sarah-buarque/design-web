@@ -15,16 +15,13 @@ body{
 .card{
     display: flex;
     width: 270px;
-    height: 165px;
+    min-height: 284px;
     margin-top: 34px;
     flex-direction: column;
     justify-content: center;
+    background: #FFF;
 }
 
 p{
-    margin: 0;
-}
-
-h2{
     margin: 0;
 }
