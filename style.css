@@ -34,7 +34,10 @@
 }
 
 .box{
-    margin-left: 138px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    width: 1167px;
     border-bottom: 1px solid #dee2e6;
 }
 
