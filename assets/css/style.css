@@ -1,16 +1,13 @@
 .perfil{
     display: flex;
-    justify-content: center;
+    min-width: 30%;
+    flex-shrink: 5;
     gap: 32px;
 }
 
 .perfil h2{
     font-size: 24px;
-}
-
-.foto{
-    width: 369px;
-    height: 260px;
+    margin: 0;
 }
 
 .perfil p{
@@ -20,16 +17,20 @@
 .dados-perfil{
     display: flex;
     flex-direction: column;
-    align-items: start;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.information{
+    padding: 16px;
 }
 
 .bio{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     background-color: #fff;
+    width: 769px;
     height: 344px;
     padding: 16px;
     box-sizing: border-box;
@@ -39,8 +40,6 @@
 }
 
 .box{
-    display: flex;
-    justify-content: space-between;
     width: 1167px;
     margin-top: 73px;
     border-bottom: 1px solid #dee2e6;
@@ -53,6 +52,7 @@
 .projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -76,6 +76,7 @@
 .links{
     display: flex;
     justify-content: space-between;
+    margin-top: 22px;
 }
 
 .text{
