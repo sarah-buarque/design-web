@@ -41,8 +41,8 @@
 .box{
     display: flex;
     justify-content: space-between;
-    margin-left: 9%;
     width: 1167px;
+    margin-top: 73px;
     border-bottom: 1px solid #dee2e6;
 }
 
@@ -53,7 +53,6 @@
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -72,4 +71,13 @@
 
 .yellow{
     color: #FFC107;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding: 16px;
 }

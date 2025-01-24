@@ -2,21 +2,22 @@
 
 @media (max-width: 600px) {
     .perfil{
-      flex-flow: column nowrap;
+      flex-direction: column;
     }
+    
   }
   
 body{
     background: #FAFAFA;
     font-family: Lato;
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
     }
 
 .container{
     width: 1440px;
-    height: 1394px;
+
     }
 
 .card{
@@ -27,9 +28,19 @@ body{
     flex-direction: column;
     justify-content: center;
     background: #FFF;
-    flex-flow: column nowrap;
+    flex-flow: column;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
 
 p{
     margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 106px;
+    padding: 32px 0px 16px 0px;
+    border-top: 1px solid #DEE2E6;
 }
