@@ -1,0 +1,40 @@
+.bloco-1{
+    align-items: center;
+}
+
+.bloco-1 .linha-1{
+    width: 60px;
+    height: 1px;
+    transform: rotate(90deg);
+    background:#FFF;
+}
+
+.bloco-1 .autor{
+    color: #FFF;
+    font-size: 21px;
+    font-style: italic;
+}
+
+.bloco-2{
+    align-items: center;
+}
+
+.bloco-2 .type{
+    border-style: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+}
+
+.bloco-2 .lupa{
+    width: 18px;
+    height: 18px;
+}
+
+.bloco-2 .list{
+    list-style: none;
+}
+
+.bloco-2 .links{
+    color: #FFF;
+    flex-direction: row;
+}
