@@ -19,22 +19,30 @@
     align-items: center;
 }
 
-.bloco-2 .type{
+.bloco-2 .input-linha {
     border-style: none;
     box-sizing: border-box;
-    border-bottom: 1px solid;
-}
-
-.bloco-2 .lupa{
-    width: 18px;
-    height: 18px;
-}
+    border-bottom: 1px solid white;
+    background: transparent;
+    width: 281.5px;
+  }
 
 .bloco-2 .list{
     list-style: none;
 }
 
 .bloco-2 .links{
-    color: #FFF;
     flex-direction: row;
+}
+
+.bloco-2 .links .white{
+    color: #FFF;
+}
+
+.bloco-2 .linha-2{
+    width: 16px;
+    height: 1px;
+    align-self: center;
+    transform: rotate(90deg);
+    background:#FFF;
 }
