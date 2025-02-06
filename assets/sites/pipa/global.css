@@ -4,6 +4,17 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+header{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #203C86;
+    align-items: center;
+}
+
+footer{
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+}
+
 .flex{
     display: flex;
 }
