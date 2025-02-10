@@ -47,3 +47,26 @@ header{
     border-bottom: 3px solid #FFC82C;
     font-style: bold;
 }
+
+.first-section .minisection1 h1{
+    font-size: 38px;
+}
+
+.minisection1{
+    margin-top: 100px;
+}
+
+.minisection1 p{
+    font-style: italic;
+}
+
+.first-text{
+    max-width: 785px;
+    color: #3C4858;
+    font-family: Lato;
+    margin-top: 70px;
+}
+
+.logo-principal{
+    margin-top: 45px;
+}

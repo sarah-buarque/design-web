@@ -5,7 +5,11 @@
 
 body{
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: Montserrat;
+}
+
+figure{
+    margin: 0;
 }
 
 .flex{
@@ -16,10 +20,26 @@ body{
     color: #FFF;
 }
 
+.blue{
+    color: #2648A1
+}
+
 .center-vertical{
     align-items: center;
 }
 
 .center-horizontal{
     justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
+
+.size-21{
+    font-size: 21px;
 }
