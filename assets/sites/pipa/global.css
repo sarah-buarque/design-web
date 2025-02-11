@@ -60,3 +60,6 @@ figure{
 .stretch{
     align-items: stretch;
 }
+
+.d-block{display: block;}
+
