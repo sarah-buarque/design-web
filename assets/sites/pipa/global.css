@@ -68,4 +68,11 @@ figure{
 
 .d-block{display: block;}
 
+ul{
+    padding: 0;
+}
 
+.container-menor {
+    max-width: 800px;
+    width: 100%;
+}

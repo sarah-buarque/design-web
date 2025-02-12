@@ -122,8 +122,24 @@ header{
     font-family: "Montserrat";
 }
 
+.part-3 .minisection3{
+    margin-top: 90px;
+}
+
+.part-3 b{
+    font-size: 24px;
+}
+
+.part-4{
+    margin-bottom: 113px;
+}
+
+
+
+
+
+
 footer{
-    max-width: 1900px;
     padding: 60px 16px;
     width: 100%;
     background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
@@ -155,8 +171,53 @@ footer{
     max-width: 272px;
 }
 
+.f-part1 span{
+    margin-left: 24px;
+}
+
 .icons{
     align-items: flex-start;
+}
+
+.f-part2{
+    max-width: 496px;
+}
+
+.f-part2 ul{
+    list-style: none;
+}
+
+footer .espaçar{
+    justify-content: space-between;
+}
+
+.f-list3{
+    gap: 10px;
+}
+
+.f-list4{
+    gap: 10px;
+    margin-left: 24px;
+}
+
+.f-part3{
+    max-width: 269px;
+}
+
+.block{
+    padding: 32px 24px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.f-part3 button{
+    padding: 12px 22px;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    border-radius: 3px;
+    background: var(--ui-color-primary-light, #3A95E9);
+    font-family: "Lato", sans-serif;
 }
 
 
