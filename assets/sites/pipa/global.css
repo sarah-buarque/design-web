@@ -25,6 +25,11 @@ figure{
     display: flex;
 }
 
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
+
 .white{
     color: #FFF;
 }
@@ -62,4 +67,5 @@ figure{
 }
 
 .d-block{display: block;}
+
 

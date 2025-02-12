@@ -122,6 +122,38 @@ header{
     font-family: "Montserrat";
 }
 
+footer{
+    max-width: 1900px;
+    padding: 60px 16px;
+    width: 100%;
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+}
 
+.icons{
+    gap: 24px;
+    margin-top: 47px;
+}
+
+.icons-2{
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.f-list1{
+    list-style: none;
+    margin-top: 47px;
+    gap: 24px;
+}
+
+.f-list2{
+    list-style: none;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.f-part1{
+    max-width: 272px;
+    align-items: flex-start;
+}
 
 
