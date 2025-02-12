@@ -153,6 +153,9 @@ footer{
 
 .f-part1{
     max-width: 272px;
+}
+
+.icons{
     align-items: flex-start;
 }
 
