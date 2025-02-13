@@ -3,6 +3,11 @@ header{
     background: linear-gradient(265deg, #203C86 46.03%, #203C86 53.97%);
 }
 
+.top{
+    max-width: 1200px;
+    justify-content: center;
+}
+
 .topbox{
     justify-content: flex-end;
     gap: 53px
@@ -134,18 +139,13 @@ header{
     margin-bottom: 113px;
 }
 
-
-
-
-
-
 footer{
     padding: 60px 16px;
     width: 100%;
     background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
 }
 
-.icons{
+.icons-2{
     gap: 24px;
     margin-top: 47px;
 }
