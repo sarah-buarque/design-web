@@ -220,4 +220,166 @@ footer .espaçar{
     font-family: "Lato", sans-serif;
 }
 
+@media (max-width: 568px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .topbox {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icons {
+        gap: 10px;
+    }
+
+    .text {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .principal-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .secundary-box {
+        margin-top: 20px;
+    }
+
+    .secundary-box a {
+        font-size: 18px;
+    }
+
+    .first-section .minisection1 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .minisection1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .first-text {
+        font-size: 16px;
+        max-width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .minisection2 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .minisection2 a {
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .part-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .second-text {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .card figure img {
+        max-width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .card figure figcaption {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .part-3 .minisection3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .part-3 b {
+        font-size: 20px;
+    }
+
+    .part-4 {
+        margin-bottom: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        padding: 40px 16px;
+        background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+    }
+
+    .espaçar {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+
+    .f-part1,
+    .f-part2,
+    .f-part3 {
+        max-width: 100%;
+    }
+
+    .f-list1,
+    .f-list2 {
+        gap: 12px;
+    }
+
+    .f-list3,
+    .f-list4 {
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .f-part3 button {
+        width: 100%;
+        padding: 12px 20px;
+    }
+
+    .icons-2 {
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .f-part2 ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block {
+        width: 100%;
+        padding: 24px 16px;
+        background: #FFF;
+    }
+}
+
 
